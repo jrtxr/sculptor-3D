@@ -9,10 +9,9 @@ using namespace std;
 int main()
 {
 
-  Sculptor *coracao = new Sculptor(40,40,40);
-  coracao->setColor(0,0,0,1);
+  Sculptor *coracao = new Sculptor(40, 40, 40);
+  coracao->setColor(1,1,1,1);
   coracao->putVoxel(25,25,25);
-  coracao->putVoxel(26,25,24);
   coracao->putVoxel(24,25,24);
   coracao->putVoxel(23,25,23);
   coracao->putVoxel(22,25,23);
@@ -41,7 +40,7 @@ int main()
   coracao->putVoxel(26,25,32);
   coracao->putVoxel(26,25,24);
 
-  coracao->setColor(1,0,0,1);
+  coracao->setColor(1,0,0.5,1);
   coracao->putVoxel(23,25,24);
   coracao->putVoxel(22,25,24);
   coracao->putVoxel(21,25,24);
@@ -106,9 +105,8 @@ int main()
   coracao->putVoxel(29,25,25);
   coracao->putVoxel(30,25,25);
 
-  coracao->cutVoxel(21,25,25);
-  coracao->cutVoxel(22,25,25);
-  coracao->cutVoxel(21,25,26);
+  coracao->cutVoxel(22,22,22);
+
   coracao->writeOFF((char*)"coracao.off");
 
   return 0;
