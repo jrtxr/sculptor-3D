@@ -46,8 +46,8 @@ Sculptor::~Sculptor()
     }
     delete [] v;
     //Zera o restante dos objetos da classe
-    nx=ny=nz=0;
-    r=g=b=a=0;
+    nx=ny=nz=NULL;
+    r=g=b=a=NULL;
 }
 
 void Sculptor::setColor(float r, float g, float b, float alpha)
