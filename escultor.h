@@ -10,18 +10,46 @@ using namespace std;
  */
 class Sculptor {
 protected:
-
-  Voxel ***v; //Cria uma matriz tridimensional do tipo voxel
-
-  int nx; //armazena a dimensão x da matriz de voxel
-  int ny; // armazena a dimensão y da matriz de voxel
-  int nz; //armazena a dimensão z da matriz de voxel
-
-  float r; // armazena o valor correspondente a cor vermelha 
-  float g; // armazena o valor correspondente a cor verde 
-  float b; // armazena o valor correspondente a cor azul 
-
-  float a;  //armazena o valor correspondente a transparência do desenho 
+/**
+ * @brief  Cria uma matriz tridimensional do tipo voxel
+ * 
+ */
+  Voxel ***v;
+/**
+   * @brief armazena a dimensão x da matriz de voxel
+   * 
+   */
+  int nx;
+  /**
+   * @brief armazena a dimensão y da matriz de voxel
+   * 
+   */
+  int ny;
+  /**
+   * @brief armazena a dimensão z da matriz de voxel
+   * 
+   */
+  int nz; 
+  /**
+   * @brief armazena o valor correspondente a cor vermelha 
+   * 
+   */
+  float r;
+  /**
+   * @brief armazena o valor correspondente a cor verde 
+   * 
+   */
+  float g;
+  /**
+   * @brief armazena o valor correspondente a cor azul 
+   * 
+   */
+  float b;
+  /**
+   * @brief armazena o valor correspondente a transparência do desenho 
+   * 
+   */
+  float a; 
 
 public:
 /**
@@ -133,4 +161,4 @@ public:
   void writeOFF(char* filename);
 };
 
-#endif // SCULPTOR_H
+#endif // SCULPTOR_HPP
