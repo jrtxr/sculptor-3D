@@ -109,5 +109,50 @@ int main()
 
   coracao->writeOFF((char*)"coracao.off");
 
+  Sculptor *piramide = new Sculptor(100, 100, 100);
+
+  //grama
+  piramide->setColor(0,100,0,0); // cor verde da grama
+  piramide->putBox(0,60,1,2,0,60);
+  //mar
+  piramide->setColor(0,0,50,0); // cor azul do mar
+  piramide->putBox(0,80,0,1,0,80);
+
+  piramide->setColor(35,106,144,0);// cor areia da piramide
+  piramide->putBox(1,40,1,2,1,40);
+  piramide->putBox(2,39,2,3,2,39);
+  piramide->putBox(3,38,3,4,3,38);
+  piramide->putBox(4,37,4,5,4,37);
+  piramide->putBox(5,36,5,6,5,36);
+  piramide->putBox(6,35,6,7,6,35);
+  piramide->putBox(7,34,7,8,7,34);
+  piramide->putBox(8,33,8,9,8,33);
+  piramide->putBox(9,32,9,10,9,32);
+  piramide->putBox(10,31,10,11,10,31);
+  piramide->putBox(11,30,11,12,11,30);
+  piramide->putBox(12,29,12,13,12,29);
+  piramide->putBox(13,28,13,14,13,28);
+  piramide->putBox(14,27,14,15,14,27);
+  piramide->putBox(15,26,15,16,15,26);
+  piramide->putBox(16,25,16,17,16,25);
+  piramide->putBox(16,25,20,21,16,25);
+  piramide->putBox(16,25,22,23,16,25);
+
+  //parte superior da piramide
+  piramide->putVoxel(17,17,17);piramide->putVoxel(17,18,17);piramide->putVoxel(17,19,17);piramide->putVoxel(17,21,17);
+  piramide->putVoxel(18,17,17);piramide->putVoxel(18,18,17);piramide->putVoxel(18,19,17);piramide->putVoxel(18,21,17);
+  piramide->putVoxel(22,17,17);piramide->putVoxel(22,18,17);piramide->putVoxel(22,19,17);piramide->putVoxel(22,21,17);
+  piramide->putVoxel(23,17,17);piramide->putVoxel(23,18,17);piramide->putVoxel(23,19,17);piramide->putVoxel(23,21,17);
+  piramide->putVoxel(17,17,22);piramide->putVoxel(17,18,22);piramide->putVoxel(17,19,22);piramide->putVoxel(17,21,22);
+  piramide->putVoxel(17,17,23);piramide->putVoxel(17,18,23);piramide->putVoxel(17,19,23);piramide->putVoxel(17,21,23);
+  piramide->putVoxel(17,17,18);piramide->putVoxel(17,18,18);piramide->putVoxel(17,19,18);piramide->putVoxel(17,21,18);
+  piramide->putVoxel(23,17,18);piramide->putVoxel(23,18,18);piramide->putVoxel(23,19,18);piramide->putVoxel(23,21,18);
+  piramide->putVoxel(23,17,22);piramide->putVoxel(23,18,22);piramide->putVoxel(23,19,22);piramide->putVoxel(23,21,22);
+  piramide->putVoxel(23,17,23);piramide->putVoxel(23,18,23); piramide->putVoxel(23,19,23);piramide->putVoxel(23,21,23);
+  piramide->putVoxel(22,17,23);piramide->putVoxel(22,18,23); piramide->putVoxel(22,19,23);piramide->putVoxel(22,21,23);
+  piramide->putVoxel(18,17,23);piramide->putVoxel(18,18,23); piramide->putVoxel(18,19,23);piramide->putVoxel(18,21,23);
+
+  piramide->writeOFF((char*)"piramidemaia.off");
+
   return 0;
 }
