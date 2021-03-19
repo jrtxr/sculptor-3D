@@ -47,7 +47,7 @@ Contribuições para o projeto são sempre bem-vindas.
 [![Linkedin Badge](https://img.shields.io/badge/-Gilvan%20Carlos-3355cc?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/gilvan-carlos/)](https://www.linkedin.com/in/gilvan-carlos/) 
 [![Gmail Badge](https://img.shields.io/badge/-juniorteixeira1805@gmail.com-3355cc?style=flat-square&logo=Gmail&logoColor=white&link=mailto:juniorteixeira1805@gmail.com)](mailto:juniorteixeira1805@gmail.com)
 
-<img src="https://avatars.githubusercontent.com/u/78730331?s=460&u=8de650a8a24a9792a5106bccddecc0f652eab10f&v=4" alt="junior teixeira" style="width:250px; height: 250px; border-radius: 50%;"></img>
+<img src="https://avatars.githubusercontent.com/u/78730331?s=96&v=4" alt="junior teixeira" style="width:250px; height: 250px; border-radius: 50%;"></img>
 
 ### HENRIQUE HIDEAKI KOGA
 
