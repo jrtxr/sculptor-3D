@@ -2,8 +2,10 @@
 
 <p align="center">
  <a href="#objetivo">Descrição</a> •
- <a href="#tecnologias">utilização</a> • 
- <a href="#autor">Autor</a>
+ <a href="#GettingStarted">Getting Started</a> • 
+ <a href="#tecnologias">tecnologias</a> •
+ <a href="#Contributions">Contributions</a> •
+ <a href="#authors">authors</a>
 </p>
 
 ## Descrição
@@ -16,29 +18,38 @@ O projeto consiste em dois módulos: uma classe em C++ destinada à interpretaç
 
 Os sistemas de escultura tridimensional prevêem alguns tipos de formas geométricas simples que poderão ser usadas pelo usuário para pintar e deverão ser implementadas no projeto.
 
-## Instalação
-
-<p>Para executar esté programa, você precisará do node instalado em sua maquina e seguir os seguintes passos:</p>
-
+## Getting Started
+Para utilizar o projeto, basta clonar o repositório em um diretório de sua preferência com o seguinte comando:
+```
+git clone https://github.com/juniorteixeira1805/sculptor-3D.git
+```
 <ul>
-  <li>Clona o projeto;</li>
   <li>Abrir o terminal;</li>
   <li>Ir até a pasta do projeto;</li>
-  <li>Na raiz da pasta executar o comando "g++ -o main main.cpp;</li>
 </ul>
 
-<span><strong>OBS:</strong> Você deve ter a a biblioteca mingw instalado na sua maquina.</span>
+Na raiz da pasta executar o comando :
+```
+g++ -o main main.cpp
+```
 
-## Autores
+## Technologies
+- C++
 
-<img src="https://avatars.githubusercontent.com/u/49037876?s=460&u=f48ae3d1fc11fb2a22c1add56b941428bd143f8b&v=4" alt="junior teixeira" style="width:250px; height: 250px; border-radius: 50%;"></img>
+## Contributions
+Contribuições para o projeto são sempre bem-vindas.
+
+## authors
+
+<img src="https://avatars.githubusercontent.com/u/49037876?s=96&v=4" alt="junior teixeira" style="border-radius: 50%;"></img>
 ### Gilvan Carlos Teixeira Junior
 
 [![Linkedin Badge](https://img.shields.io/badge/-Gilvan%20Carlos-3355cc?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/gilvan-carlos/)](https://www.linkedin.com/in/gilvan-carlos/) 
 [![Gmail Badge](https://img.shields.io/badge/-juniorteixeira1805@gmail.com-3355cc?style=flat-square&logo=Gmail&logoColor=white&link=mailto:juniorteixeira1805@gmail.com)](mailto:juniorteixeira1805@gmail.com)
 
-<img src="https://avatars.githubusercontent.com/u/78730331?s=460&u=8de650a8a24a9792a5106bccddecc0f652eab10f&v=4" alt="junior teixeira" style="width:250px; height: 250px; border-radius: 50%;"></img>
+<img src="https://avatars.githubusercontent.com/u/78730331?s=96&v=4" alt="junior teixeira" style="width:250px; height: 250px; border-radius: 50%;"></img>
 
 ### HENRIQUE HIDEAKI KOGA
 
 [![Gmail Badge](https://img.shields.io/badge/-hideaki_koga@hotmail.com-3355cc?style=flat-square&logo=Gmail&logoColor=white&link=mailto:hideaki_koga@hotmail.com)](mailto:hideaki_koga@hotmail.com)
+
