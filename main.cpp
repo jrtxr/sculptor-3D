@@ -285,5 +285,18 @@ int main()
 
   piramide->writeOFF((char*)"piramidemaia.off");
 
+  Sculptor *Bola = new Sculptor(100, 100, 100);
+
+  Bola->setColor(1,1,1,1);
+  Bola->putSphere(50,50,50,25);
+  Bola->cutSphere(50,50,75,25);
+
+  Sculptor *Elipse = new Sculptor(100, 100, 100);
+
+  Elipse->setColor(1,0.5,0.7,1);
+  Elipse->putEllipsoid(25,50,75,25,25,25);
+
+  Elipse->writeOFF((char*)"elipse.off");
+
   return 0;
 }
